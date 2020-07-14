@@ -1,5 +1,5 @@
 <% if @song.errors.any? %>
- <div id="error_explanation">
+ <div id="error_explanation"> <!-- study this id why we use it -->
    <h2>
      <%= pluralize(@song.errors.count, "error") %>
      prohibited this song from being saved:
